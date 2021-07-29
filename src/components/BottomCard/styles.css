@@ -1,0 +1,15 @@
+@import url("../../globals.css");
+
+.botomcard-container {
+  height: 100%;
+  max-height: 170px;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  scroll-behavior: auto;
+}
+
+@media (max-width: 768px) {
+  .botomcard-container {
+    height: auto;
+  }
+}

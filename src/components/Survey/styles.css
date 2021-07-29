@@ -1,0 +1,37 @@
+@import url("../../globals.css");
+
+.survey__title {
+  margin: 0;
+  font-size: var(--title-font-size);
+  color: var(--primary-color);
+}
+.survey__vote {
+  text-align: center;
+}
+
+.vote__like {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.vote__dislike {
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.button__like {
+ margin: 10px 40px 0 0;
+ cursor: pointer;
+ background: none;
+ outline: none;
+ border: none;
+}
+.button__dislike {
+  margin: 10px 0 0 40px;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+ }

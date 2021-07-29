@@ -1,0 +1,51 @@
+@import "../../globals.css";
+
+.form_body {
+  margin-bottom: 10px;
+}
+
+.text_content {
+  font-family: Raleway;
+  font-size: 16px;
+  border-right: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.foto_avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding-bottom: 11px;
+}
+
+.cabecera {
+  text-align: left;
+}
+
+.label_text {
+  text-align: left;
+}
+
+.label_form {
+  padding: 1px;
+}
+
+.label {
+  display: inline;
+  margin: 10px;
+}
+
+.text_input {
+  width: 357px;
+  height: 35px;
+}
+
+.text_area {
+  font-family: Raleway;
+  width: 357px;
+  height: 116px;
+  resize: none;
+  display: inline;
+  margin: 10px;
+}

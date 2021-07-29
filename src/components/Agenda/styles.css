@@ -1,0 +1,12 @@
+.Agenda__icon {
+  width: 16px;
+  height: 16px;
+  align-self: center;
+  margin-left: auto;
+  text-align: right;
+}
+
+.Agenda {
+  margin: 10px;
+  justify-content: flex-end;
+}

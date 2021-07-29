@@ -1,0 +1,37 @@
+header {
+  grid-area: header;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+nav.header-nav {
+  background-color: #18181a;
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 100px;
+}
+
+.header__logo {
+  margin-right: 10px;
+}
+
+nav.header-nav h1 {
+  margin-left: 1.5rem;
+}
+
+nav.header-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 16px;
+  line-height: 28.18px;
+}
+
+nav.header-nav img {
+  width: 1rem;
+}
+
+.header__buton{
+  cursor: pointer;
+  transition: all ease 150ms;
+}

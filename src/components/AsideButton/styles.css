@@ -1,0 +1,43 @@
+@import url("../../globals.css");
+
+.aside_button {
+  margin: 10px 0;
+  background: none;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.aside-button__text {
+  height: 72px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--subtitle-font-size);
+  padding: 0 1rem;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.aside-button__text:hover {
+  transition-duration: 0.2s;
+  color: #fff;
+  background: var(--button-primary);
+}
+.aside-button__text:hover > .aside-button__arrow {
+  fill: #fff;
+}
+
+.aside-button__text:not(:hover) {
+  transition-duration: 0.2s;
+  color: var(--primary-color);
+}
+
+.aside-button__text:not(:hover) > .aside-button__arrow {
+  fill: var(--primary-color);
+}

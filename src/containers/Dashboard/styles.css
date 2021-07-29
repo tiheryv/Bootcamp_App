@@ -1,0 +1,65 @@
+@import url("../../globals.css");
+
+.dashboard {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.dashboard__container {
+  padding: 20px 2em;
+  display: flex;
+  flex: 1;
+}
+
+.dashboard-grid {
+  flex-grow: 1;
+  flex: auto;
+  /* margin: 1.25em; */
+  display: grid; 
+  grid-gap: 20px;
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 0.5fr repeat(2, 1fr); 
+  grid-template-rows: repeat(3, 1fr); 
+  grid-template-areas: 
+    "userCard main main"
+    "editButtons main main"
+    "editButtons feedback survey"
+}
+
+.dashboard__userCard {
+  grid-area: userCard;
+}
+
+.dashboard__buttons {
+  grid-area: editButtons;
+  border: none;
+}
+
+.dashboard__main {
+  grid-area: main;
+}
+
+.dashboard__feedback {
+  grid-area: feedback;
+}
+
+.dashboard__survey {
+  grid-area: survey;
+}
+
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
+    grid-template-areas: 
+      "userCard"
+      "main"
+      "editButtons"
+      "survey"
+      "feedback"
+  }
+}

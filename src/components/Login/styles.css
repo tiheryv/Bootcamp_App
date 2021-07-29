@@ -1,0 +1,101 @@
+@import '../../globals.css';
+
+.Login__component {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__container {
+  border: 1px solid #000;
+  width: 372px;
+  height: 305px;
+}
+
+.form__logo--title {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: var(--title-font-size);
+}
+
+.form__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0 2em 0;
+}
+
+i {
+  position: absolute;
+  top: 37px;
+  right: 15px;
+}
+
+i:hover {
+  color: var(--button-primary);
+  cursor: pointer;
+}
+
+.pass-wrapper {
+  position: relative;
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form__input--container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  position: relative;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid #000;
+  width: 99%;
+  height: 44px;
+  padding: 0;
+  margin: 5px auto 10px auto;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.select {
+  border-radius: 5px;
+  border: 1px solid #000;
+  width: 40%;
+  height: 30px;
+  padding: 0;
+  margin: 0px auto 15px 0px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+label {
+  font-weight: 600;
+}
+
+.button {
+  margin: 0;
+  width: 100%;
+}
+
+.form__input {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.other__account {
+  display: none !important;
+}

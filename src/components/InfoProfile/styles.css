@@ -1,0 +1,58 @@
+@import url("../../globals.css");
+
+.profile * {
+  font-family: 'Roboto';
+}
+
+.profile {
+  /* width:281px; */
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  padding: 10px;
+  grid-area: userCard;
+}
+
+.profile__image {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.profile__image img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+}
+
+.profile__data {
+  text-align: center;
+}
+
+.profile__data > h1 {
+  font-size: var(--title-font-size);
+  margin: 0 0 5px 0;
+}
+
+.profile__info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.info__container{
+  width: 230px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+} 
+
+.info__container > h2 {
+  font-size: var(--subtitle-font-size);
+  margin: 0 0 5px 0;
+  color: var(--tertiary-color);
+  font-weight: 500;
+}
